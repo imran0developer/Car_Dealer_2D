@@ -1,10 +1,23 @@
 package com.imran.cardealer2d.helper
 
 object Constants {
-    var USER_WORTH = "poor"
+    var USER_WORTH = "rich"
+
     const val POOR = "poor"
     const val ECONOMY = "economy"
     const val RICH = "rich"
+
+    var ACCEPTING: Boolean = false
+    const val BUYING = "buying"
+    const val SELLING = "selling"
+
+
+
+
+
+
+
+
     const val LOW_END_CARS = "lowEndCars"
     const val MID_END_CARS = "midEndCars"
     const val HIGH_END_CARS = "highEndCars"
@@ -24,7 +37,6 @@ object Constants {
     const val HIGH_END_CARS_LIMIT = "high_end_car_limit"
 
 
-
     const val POOR_LOW_END_CARS_PERCENTAGE = 45.0
     const val POOR_MID_END_CARS_PERCENTAGE = 30.0
     const val POOR_HIGH_END_CARS_PERCENTAGE = 25.0
@@ -36,4 +48,7 @@ object Constants {
     const val RICH_LOW_END_CARS_PERCENTAGE = 20.0
     const val RICH_MID_END_CARS_PERCENTAGE = 30.0
     const val RICH_HIGH_END_CARS_PERCENTAGE = 50.0
+
+    const val FIXED_PERCENTAGE_LIMIT = 35.0
+    const val FIXED_PERCENTAGE_START = 10.0
 }
